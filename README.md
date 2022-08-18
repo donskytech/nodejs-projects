@@ -3,3 +3,5 @@ This folder will contain projects that we are going to use as a backend of our I
 We will use Node.js in developing these projects.
 
 List of Projects:
+  keypads-iot-rest-applications
+    
