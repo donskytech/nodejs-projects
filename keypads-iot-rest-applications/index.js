@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 //setup mongoose
 const mongodbConnString = `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@${process.env.CLUSTER_NAME_CONN}/${process.env.DB_NAME}`
-console.log(mongodbConnString);
+// console.log(mongodbConnString);
 
 mongoose.connect(mongodbConnString)
 
